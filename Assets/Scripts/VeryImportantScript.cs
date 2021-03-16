@@ -19,6 +19,9 @@ public class VeryImportantScript : MonoBehaviour
             Debug.Log("Very Important stuff happening");
             i++;
         }
-
+        if (carsThatNeedToCrash == 5)
+        {
+            Debug.Log("Bigger Boom");
+        }
     }
 }
